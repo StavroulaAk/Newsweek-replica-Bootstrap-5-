@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F4F5F6;
+}
+
+.header-top{
+    background-color: red;
+}
+li:hover, h2{
+    color: red;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    cursor: pointer;
+}
+
+.card-title:hover{
+    text-decoration: underline red;
+}
+img{
+    cursor: pointer;
+}
+.card-title{
+    cursor: pointer;
+}
+
+.fa-neos{
+    color: white;
+    background-color: red;
+}
+
+@media screen and (min-width:768px){
+    #magazine-article{
+        width: 18rem;
+    }
+}
+    
